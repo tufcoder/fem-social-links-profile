@@ -1,7 +1,9 @@
 @media (min-width:1440px) {
+    .social {
+        transition: opacity .2s ease;
+    }
 
-    /* @media (min-width:900px) { */
-    body {
-        background-color: #000;
+    .social:hover {
+        opacity: .8;
     }
 }

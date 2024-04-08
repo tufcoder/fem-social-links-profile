@@ -21,9 +21,74 @@ html {
 }
 
 body {
+    font-weight: 400;
     /* 14px */
     font-size: .875rem;
     font-family: 'Inter', sans-serif;
+    color: var(--white);
+    background-color: var(--offBlack);
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    /* 320px */
+    min-width: 20rem;
+    /* 336px */
+    max-width: 21rem;
+    /* 154px */
+    margin: 9.625rem auto;
+    border-radius: 1rem;
+    /* 24px */
+    padding: 1.5rem;
+    text-align: center;
+    background-color: var(--darkGrey);
+}
+
+.avatar {
+    /* 96px */
+    width: 6rem;
+    /* 96px */
+    height: 6rem;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.title {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.address {
+    margin-top: .5rem;
+    font-weight: 600;
+    /* 14px */
+    font-size: inherit;
+    color: var(--green);
+}
+
+.description {
+    margin: 1.5rem 0;
+}
+
+.social {
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    padding: 1rem 0;
+    font-weight: 700;
+    background-color: var(--grey);
+}
+
+.social:nth-last-child(1) {
+    margin-bottom: 0;
 }
 
 .attribution {
