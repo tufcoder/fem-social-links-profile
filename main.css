@@ -83,13 +83,19 @@ a {
 }
 
 .social {
-    display: block;
+    /* 16px */
     margin-bottom: 1rem;
+    /* 8px */
     border-radius: .5rem;
-    padding: 1rem 0;
-    list-style: none;
+    /* 16px */
     font-weight: 700;
+    list-style: none;
     background-color: var(--grey);
+}
+
+.social a {
+    display: block;
+    padding: 1rem 0;
 }
 
 .social:nth-last-child(1) {
