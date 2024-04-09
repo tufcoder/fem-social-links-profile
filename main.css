@@ -17,13 +17,14 @@ html {
     box-sizing: inherit;
     margin: 0;
     border: 0;
+    padding: 0;
     outline: 0;
 }
 
 body {
-    font-weight: 400;
     /* 14px */
     font-size: .875rem;
+    font-weight: 400;
     font-family: 'Inter', sans-serif;
     color: var(--white);
     background-color: var(--offBlack);
@@ -57,32 +58,36 @@ a {
     width: 6rem;
     /* 96px */
     height: 6rem;
-    display: inline-block;
     border-radius: 50%;
 }
 
 .title {
     margin-top: 1.5rem;
-    font-weight: 700;
+    /* 24px */
     font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .address {
     margin-top: .5rem;
-    font-weight: 600;
     /* 14px */
-    font-size: inherit;
+    font-size: .875rem;
+    font-weight: 600;
+    font-style: normal;
     color: var(--green);
 }
 
 .description {
+    /* 24px */
     margin: 1.5rem 0;
 }
 
 .social {
+    display: block;
     margin-bottom: 1rem;
     border-radius: .5rem;
     padding: 1rem 0;
+    list-style: none;
     font-weight: 700;
     background-color: var(--grey);
 }

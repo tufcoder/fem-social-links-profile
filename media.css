@@ -1,9 +1,17 @@
 @media (min-width:1440px) {
+    .container {
+        /* 400px */
+        max-width: 25rem;
+        /* 250px */
+        margin: 15.625rem auto;
+    }
+
     .social {
-        transition: opacity .2s ease;
+        transition: background-color .2s ease;
     }
 
     .social:hover {
-        opacity: .8;
+        color: var(--darkGrey);
+        background-color: var(--green);
     }
 }
