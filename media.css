@@ -1,4 +1,5 @@
-@media (min-width:1440px) {
+/* 1440px */
+@media (min-width: 90rem) {
     .container {
         /* 400px */
         max-width: 25rem;
