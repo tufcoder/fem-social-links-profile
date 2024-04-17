@@ -109,7 +109,10 @@ a {
 }
 
 .attribution a {
-    color: var(--link);
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--green);
+    font-family: 'Inter', sans-serif;
 }
 
 footer {

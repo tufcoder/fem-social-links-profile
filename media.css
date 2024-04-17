@@ -15,4 +15,8 @@
         color: var(--darkGrey);
         background-color: var(--green);
     }
+
+    .attribution {
+        font-size: 1rem;
+    }
 }
